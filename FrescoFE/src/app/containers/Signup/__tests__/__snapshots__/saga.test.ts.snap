@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUp-> Saga-> signUp signUp error 409 1`] = `Promise {}`;
+
+exports[`SignUp-> Saga-> signUp signUp error 500 1`] = `Promise {}`;
+
+exports[`SignUp-> Saga-> signUp signUp error reset 1`] = `Promise {}`;
+
+exports[`SignUp-> Saga-> signUp signUp success 1`] = `Promise {}`;
+
+exports[`SignUp-> Saga-> signUpSaga signUpSaga watch all 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": true,
+  "payload": Array [
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "args": Array [
+          "signup/signUpRequest",
+          [Function],
+        ],
+        "context": null,
+        "fn": [Function],
+      },
+      "type": "FORK",
+    },
+  ],
+  "type": "ALL",
+}
+`;

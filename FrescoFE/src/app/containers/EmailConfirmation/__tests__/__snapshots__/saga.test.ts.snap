@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmailConfirmation-> Saga-> EmailConfirmation EmailConfirmationSaga watch all 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": false,
+  "payload": Object {
+    "args": Array [
+      "emailConfirmation/emailConfirmationRequest",
+      [Function],
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+  "type": "FORK",
+}
+`;
+
+exports[`EmailConfirmation-> Saga-> EmailConfirmation emailConfirmation error 1`] = `Promise {}`;
+
+exports[`EmailConfirmation-> Saga-> EmailConfirmation emailConfirmation error 2`] = `
+Object {
+  "done": false,
+  "value": Promise {},
+}
+`;
+
+exports[`EmailConfirmation-> Saga-> EmailConfirmation emailConfirmation success 1`] = `Promise {}`;

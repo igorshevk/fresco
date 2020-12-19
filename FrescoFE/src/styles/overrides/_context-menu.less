@@ -1,0 +1,28 @@
+.context-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  position: fixed;
+  z-index: 100000;
+  background-color: white;
+  border: 1px solid gray;
+  gap: 2px;
+  border-radius: 5px;
+
+  .context-menu-item {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid gray;
+    }
+
+    &:hover {
+      background-color: rgba(0,0,0,0.1);
+    }
+  }
+}

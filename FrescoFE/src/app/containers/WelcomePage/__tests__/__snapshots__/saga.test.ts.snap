@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignIn-> Saga-> signIn signIn error 1`] = `Promise {}`;
+
+exports[`SignIn-> Saga-> signIn signIn success 1`] = `Promise {}`;
+
+exports[`SignIn-> Saga-> signInSaga signInSaga watch all 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": true,
+  "payload": Array [
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "args": Array [
+          "welcomePage/signInRequest",
+          [Function],
+        ],
+        "context": null,
+        "fn": [Function],
+      },
+      "type": "FORK",
+    },
+  ],
+  "type": "ALL",
+}
+`;
